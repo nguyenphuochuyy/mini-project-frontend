@@ -18,7 +18,7 @@
     padding: 5px 0px;
 }
 .inner-wrap{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 
 }
@@ -617,7 +617,7 @@
 
 .section-8 .wrap-content .wrap-bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .section-8 .wrap-content .wrap-bottom .inner-item{
     background-color: #fff;
@@ -648,3 +648,88 @@
       color: #FFC813;
 }
 /* End Section-8 */
+
+
+/* Section-9 */
+.section-9{
+    background-color: #fff;
+    padding: 65px 0;
+    
+}
+.section-9 .inner-wrap .wrap-left {
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-9 .inner-wrap .wrap-left .inner-item .title{
+    color: var(--color-one);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.section-9 .inner-wrap .wrap-left .inner-item .desc1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.section-9 .inner-wrap .wrap-left .inner-item .phone{
+    font-size: 50px;
+    color: var(--color-one);
+    margin-top: 30px;
+
+}
+.section-9 .inner-wrap .wrap-left .inner-item .desc2{
+    line-height: 2;
+    margin-top: 10px;
+}
+.section-9 .inner-wrap .wrap-left .inner-item .button{
+    padding: 10px 55px;
+    color: var(--color-one);
+    border: 1px solid #efefef;
+    border-radius: 45px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 0;
+    
+
+}
+.section-9 .inner-wrap .wrap-left .inner-item .button:hover{
+    background-color: var(--color-one);
+    color: white;
+}
+.section-9 .inner-wrap .wrap-left .inner-item-last{
+    font-size: 20px;
+    padding: 20px;
+}
+.section-9 .inner-wrap .wrap-left .inner-item-last i {
+    margin-right: 15px;
+}
+
+.section-9 .inner-wrap .wrap-right iframe{
+    height: 100%;
+   
+}
+
+/* End section-9 */
+
+/* Section-10 */
+.section-10{
+    background-color: var(--color-one);
+}
+
+.section-10 .inner-item{
+    margin: 50px -10px;
+}
+.section-10 .inner-item .inner-content{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.section-10 .inner-wrap{
+    width: 75%;
+    justify-content: space-between;
+}
+/* End Section-10 */

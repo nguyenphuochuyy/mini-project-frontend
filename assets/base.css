@@ -19,6 +19,9 @@ h3{
 ul {
     list-style-type: none;
 }
+hr{
+    width: 150%;
+}
 .container{
     width: 100%;
     max-width: 1140px;
@@ -26,3 +29,4 @@ ul {
     margin-right: auto;
     
 }
+
