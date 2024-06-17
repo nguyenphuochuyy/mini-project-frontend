@@ -439,7 +439,212 @@
 
 
 /* Section-5 */
+.section-5{
+    margin-top: 80px;
+}
+.section-5 .inner-title{
+    color: var(--color-one);
+    font-size: 32px;
+}
+.section-5 .inner-wrap-s5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.section-5 .inner-wrap-s5 .inner-product{
+    width: 100%;
+    display: flex;
+}
+.section-5 .inner-wrap-s5 .inner-product .product-item{
+    width: 20%;
+    border: 1px solid #dacccc72;
+}
+.section-5 .inner-wrap-s5 .inner-product .product-item img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+}
+.section-5 .inner-wrap-s5 .inner-product .product-item .title{
+    font-size: 16px;
+    color: var(--color-one);
+    font-weight: 450;
+    margin : 10px 10px;
+}
 
-
+.section-5 .inner-wrap-s5 .inner-product .product-item .price{
+    margin-left: 10px;
+    color: var(--color-one);
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.section-5 .inner-wrap-s5 .inner-product .product-item .star{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-5 .inner-wrap-s5 .inner-product .product-item .star i{
+    font-size: 13px;
+    padding: 1px;
+    color: #FFC813;
+}
 /* End Section-5 */
+
+
+/* Section-6 */
+.section-6{
+    background-color: var(--color-section);
+    margin-top: 80px;
+    padding: 65px 0;
+}
+.section-6 .title{
+    color: var(--color-one);
+    font-size: 35px;
+    text-align: center;
+}
+.section-6 .content
+{
+  flex-direction: column;
+  align-items: center;
+  
+}
+.section-6 .email{
+    text-align: left;
+    width: 400px;
+    height: 45px;
+    font-size: 17px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 45px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.section-6 .button{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    background-color: #FFC813;
+    border-radius: 45px;
+}
+.section-6 .form-content{
+    margin-top: 40px;
+}
+/* End Section-6 */
+
+
+/* Section-7 */
+.section-7{
+    background-color:#fff;
+    margin-bottom: 50px;
+    
+}
+.section-7 .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-7 .content .title{
+    font-size: 30px;
+    color: var(--color-one);
+    font-weight: 550;
+    margin-top: 40px;
+}
+.section-7 .content .video
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.section-7 .content .video img{
+    width: 100%;
+}
+.section-7 .content .video .play{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #fff;
+    top: calc(50% - 45px);
+    left: calc(50% - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-7 .content .video .play:hover{
+    background-color: var(--color-one);
+    color: white;
+}
+.section-7 .content .video .play i{
+    font-size: 32px;
+    
+    
+}
+/* End section-7 */
+
+
+
+
+
+/* Section-8 */
+.section-8{
+    background-color: var(--color-section);
+    padding-top: 35px;
+    padding-bottom: 100px;
+   
+}
+.section-8 .wrap-content .wrap-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-8 .wrap-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-8 .wrap-content .wrap-top .title{
+    color: var(--color-one);
+    font-size: 50px;
+}
+.section-8 .wrap-content .wrap-top .title i {
+    color: #FFC813;
+}
+
+.section-8 .wrap-content .wrap-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.section-8 .wrap-content .wrap-bottom .inner-item{
+    background-color: #fff;
+    width: 23%;
+}
+.section-8 .wrap-content .wrap-bottom .inner-item .inner-desc{
+    color: var(--color-one);
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 1.5;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.section-8 .wrap-content .wrap-bottom .inner-item .inner-name{
+    color: var(--color-one);
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.section-8 .wrap-content .wrap-bottom .inner-item .star{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.section-8 .wrap-content .wrap-bottom .inner-item .star i{
+    font-size: 13px;
+      color: #FFC813;
+}
+/* End Section-8 */
