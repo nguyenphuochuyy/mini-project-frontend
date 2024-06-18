@@ -6,6 +6,9 @@
     --font : "Inria Serif", serif;
     --color-section : #F0F2F5;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: var(--font);
     color: var(--color-text);
